@@ -3,6 +3,8 @@ package de.lubowiecki.playgroundoca;
 // Alles was nicht im gleichen Package oder in java.lang liegt MUSS importiert werden
 import java.time.LocalDate;
 import java.util.LinkedHashSet;
+import java.util.*; // Importiert alle Klassen aus java.util. Es werden keine Unterpackages iomportiert
+// import java.util.logging.*; // Unterpackages müssen separat importiert werden
 
 /**
  * Unsere erste Java-Klasse
