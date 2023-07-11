@@ -23,4 +23,8 @@ public class Person { // Klassendeklaration
         System.out.println("Hi, mein Name ist " + vorname + " " + nachname);
     }
 
+    @Override
+    public void finalize() {
+        System.out.println("....UGHRRRRRRR!!!!!!....");
+    }
 }
