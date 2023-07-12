@@ -42,6 +42,7 @@ public class DiceCupTest {
         String out = w6.analyse(erg);
         System.out.println(out);
 
+        // Das ist hier ein Text für GitHub
     }
 
 }
