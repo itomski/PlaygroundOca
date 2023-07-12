@@ -6,6 +6,9 @@ public class Zufallszahlen {
 
     public static void main(String[] args) {
 
+        String s = "Hallo Random";
+        String s2 = new String("Hallo");
+        s2.concat("Xyz");
 
         System.out.println(Math.random()); // 0...1 wobei 1 nie erreicht wird
         System.out.println((Math.random() * 6));

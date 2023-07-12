@@ -1,5 +1,6 @@
 package de.lubowiecki.playgroundoca;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class ScannerTest {
@@ -31,6 +32,13 @@ public class ScannerTest {
                 System.out.println(KEYS);
             }
         }
+
+        System.out.print("Eingabe: ");
+        String in = scanner.nextLine();
+
+        String[] eingabe =  in.split(""); // String wird in einzelne Buchstaben zerlegt, die als Array von String zurückgegeben werden
+        System.out.println(Arrays.toString(eingabe));
+
 
         System.out.println("Programmende");
     }
