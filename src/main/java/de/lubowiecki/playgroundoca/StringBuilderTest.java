@@ -93,6 +93,17 @@ class NextStudent {
         return sb.toString();
     }
 
+    /*
+    @Override
+    public String toString() {
+        return "NextStudent{" +
+                "vorname='" + vorname + '\'' +
+                ", nachname='" + nachname + '\'' +
+                ", geburtsdatum=" + geburtsdatum +
+                '}';
+    }
+    */
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
