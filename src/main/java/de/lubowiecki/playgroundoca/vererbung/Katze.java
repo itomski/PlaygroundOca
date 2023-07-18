@@ -5,6 +5,13 @@ public class Katze extends Tier {
     private int verbrauchteLeben;
 
     public Katze() {
+        //super();
+        this(0);
+        System.out.println("KATZE");
+    }
+
+    public Katze(int verbrauchteLeben) {
+        this.verbrauchteLeben = verbrauchteLeben;
         System.out.println("KATZE");
     }
 
