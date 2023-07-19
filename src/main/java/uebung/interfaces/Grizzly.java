@@ -8,7 +8,9 @@ public class Grizzly implements Sozialisiert {
         this.name = name;
     }
 
-    @Override
+    // In einer Klasse  sind alle Methoden per default package-private
+
+    @Override // Annotation
     public void frisst() {
         System.out.println(name + ": frisst Fleisch in großen Mengen.");
     }
