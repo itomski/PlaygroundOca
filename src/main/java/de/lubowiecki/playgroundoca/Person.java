@@ -18,7 +18,6 @@ public class Person { // Klassendeklaration
 
     boolean lebendig;
 
-
     // Methoden sind die Fähigkeiten
     void sagHallo() { // Instanzmethode
         System.out.println("Hi, mein Name ist " + vorname + " " + nachname);
