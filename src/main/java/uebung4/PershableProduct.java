@@ -1,8 +1,8 @@
 package uebung4;
 
-import java.io.Serializable;
 import java.time.LocalDate;
 
+// Da Product serialisierbar ist, ist auch das PershableProduct serialisierbar
 public class PershableProduct extends Product {
 
     private final LocalDate expiryDate;

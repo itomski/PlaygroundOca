@@ -4,7 +4,7 @@ import java.io.Serializable;
 import java.time.LocalDate;
 
 // Model
-public class Product {
+public class Product implements Serializable {
 
     private String name;
     private String description;
