@@ -1,4 +1,4 @@
-package de.lubowiecki.playgroundoca.uebung5;
+package uebung5;
 
 public class App {
 
