@@ -42,5 +42,28 @@ public class IteratorTest {
             System.out.println(e);
             itr2.remove();
         }
+
+        int i = 10___15;
+
+        boolean b, c, d;
+
+        if(b = c = d = true) {
+        }
+        System.out.println(Math.round(-0.5));
+
+        Integer j = new Integer(15);
+        j = Integer.valueOf(-15);
+
+        System.out.println(Integer.MIN_VALUE);
+        System.out.println(-(Integer.MIN_VALUE));
+
+        Double d2 = 5.0;
+
+        //System.out.println(j == d2); // Error
+        //System.out.println(j.equals(d2));
+
+        ArrayList al;
+
+        Long l = new Long("10");
     }
 }
